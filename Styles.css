@@ -2,7 +2,7 @@ h1, h2, h3{
     text-align: center;
 }
 body {
-    background-color:plum;
+    background-color:white;
 }
 .navigation-links {
 
@@ -15,9 +15,19 @@ body {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
-  text-transform: capitalize;  
-  background-color: white;
+  background-color:lightblue;
 }
 .mail {
-    text-align: center;
+ display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.mail a {
+margin: 10px;
+  border-radius: 4px;
+  padding: 10px 5px;
+  text-decoration: none;
+  text-transform: capitalize;  
+  background-color:lightblue;  
+    
 }
